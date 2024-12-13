@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b21e0d56a4eb945a940481a26a9a9d, type: 3}
+  m_Name: Hoang
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 3b826dcff8ee5f646b70ef1d227507f6, type: 3}
+  birthday:
+    year: 0
+    season: 0
+    day: 6
+    hour: 0
+    minute: 0
+  likes:
+  - {fileID: 11400000, guid: 6ffd9ff114b9a534cac8d3d70a433406, type: 2}
+  disLikes:
+  - {fileID: 11400000, guid: c58602aa205bd144cbc7887d8285bfa2, type: 2}
+  - {fileID: 11400000, guid: a5ba011169b3e994a8bb24fc8d09013f, type: 2}
+  onFirstMeet:
+  - speaker: Hoang
+    message: Are you a new farmer in town ?
+  - speaker: Hoang
+    message: Nice to meet you ! I'm Hoang . You can visit me for tips on rearing
+      animal.
+  defaultDialogue:
+  - speaker: Hoang
+    message: 'How''re the farm going ? '
+  - speaker: Hoang
+    message: Have a good day !
+  likeGiftDialogue:
+  - speaker: Hoang
+    message: Thank you ! I relly like it.
+  disLikeGiftDialogue:
+  - speaker: Hoang
+    message: I din't really like this .
+  neutralGiftDialogue:
+  - speaker: Hoang
+    message: Oh no, I can't recieve it.
+  birthdayLikeGiftDialogue:
+  - speaker: Hoang
+    message: A birthday gift ?
+  - speaker: Hoang
+    message: That very kind of you . Thank you.
+  birthdayDisLikeGiftDialogue:
+  - speaker: Hoang
+    message: Uh..This is for my birthday
+  - speaker: Hoang
+    message: ......
+  - speaker: Hoang
+    message: Thanks!
+  birthdayNeutralGiftDialogue:
+  - speaker: Hoang
+    message: Oh..A birthday gift ! Thank you !
